@@ -291,7 +291,7 @@
     .title img {
         width: auto;
     }
-        .navigationbar {
+    .navigationbar {
         flex-direction: column;
         height: auto;
         padding: 10px 0 10px 0;
