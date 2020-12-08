@@ -1,0 +1,328 @@
+.top {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#555464 0%, #81818d 54.81%, #383745 100%);
+}
+
+.ctt {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title h2 {
+    color: #bcc548;
+    font-size: 50px;
+    margin: 10px 0 0 40px;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    margin: 10px 30px 0 0px;
+}
+
+
+.content p {
+    width: auto;
+    font-family: "Century Schoolbook";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 0px 0 30px;
+    color: #fff;
+}
+
+.middlecontainer {
+    height: auto;
+    width: 70%;
+    background: linear-gradient(#797886 0%, #57576b 11.03%, #2f2f4b 45.78%, #292943 80.84%, #26263e 100%);
+}
+
+.middle {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Assests/bgimage22.jpg");
+    background-repeat: no-repeat;
+}
+
+.middle__title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #f3ff56;
+}
+
+.middle__contents {
+    display: flex;
+}
+
+.middle__contents img {
+    width: 305px;
+    height: 306px;
+    background: transparent;
+}
+
+.person {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.person h2 {
+    font-family: Arial;
+    font-size: 30px;
+    text-align: left;
+    color: #ffe600;
+}
+
+.person p {
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    color: #f1f0ea;
+    margin: 10px 0 0 0;
+}
+
+.middle___link {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: #6a83ff;
+    text-decoration: none;
+}
+
+.navigationbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 0px 0px 20px 20px;
+    background: #46455c;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.16);
+    justify-content: space-evenly;
+}
+
+.navigationbar a {
+    padding: 6px;
+    text-decoration: none;
+    /* margin: 0 0 0 10px; */
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    color: #f3ff56;
+    transition: 0.2s;
+}
+
+.navigationbar a:hover {
+    background-color: #bcc548;
+    color: black;
+    border-radius: 5px;
+}
+
+.educational__service {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    background-image: url("../Assests/bgimage22.jpg");
+    background-repeat: no-repeat;
+}
+
+.service__title {
+    width: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    color: #f3ff56;
+    margin: 20px 0 0 10px;
+}
+
+.service__contents {
+    text-align: center;
+}
+
+.service__contents p{
+    margin: 10px 0 0 15px;
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+.phoneimage {
+    margin: 10px 0 0 0;
+    width: 50%;
+    height: 230px;
+    /* background: transparent; */
+
+}
+
+.footer {   
+    width: 100%;
+    background-image: url("../Assests/bgfooter.jpg");
+    height: 300px;
+    place-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer__contact {
+    height: 100px;
+}
+
+.footer__contact h3 {
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links h3{
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.footer__links__links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.footer__links__links a {
+    margin: 10px 0 0 0;
+    font-family: "Californian FB";
+    font-size: 20px;
+    text-align: center;
+    color: #d6ff00;
+    text-decoration: none;
+}
+
+.newsletter h3 {
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.newsletter__contents p{
+    width: 250px;
+    margin:10px 0 0 0;
+    font-family: "Californian FB";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #d6ff00;
+}
+
+.text__newsletter {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.text__newsletter input {
+    border: none;
+    padding: 4px;
+    font-family: "Californian FB";
+    font-size: 20px;
+    text-align: center;
+    color: #8d8e8b;
+    outline: none;
+}
+
+.text__newsletter img {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media (max-width:1300px) {
+    .newsletter h3 {
+        font-size: 30px;
+    }
+    .footer__links h3 {
+        font-size: 30px;
+    }
+    .footer__contact h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:800px) {
+    .title {
+        flex-direction: column;
+    }
+        .navigationbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0 10px 0;
+    }
+    .navigationbar a {
+        font-size: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+    .newsletter h3 {
+        font-size: 30px;
+    }
+    .footer__links h3 {
+        font-size: 30px;
+    }
+    .footer__links {
+        margin: 10px 0 10px 0;
+    }
+    .footer__contact {
+        height: auto;
+    }
+}
+
+@media (max-width:1300px) {
+    .middlecontainer {
+        width: auto;
+    }
+    .middle {
+        height: auto;
+        background-color: #212237;
+    }
+    .middle__contents {
+        flex-direction: column;
+    }
+
+}

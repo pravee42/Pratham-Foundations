@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratham Foundations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <script>
+        function myFunction() {
+            const toggleButton = document.getElementsByClassName('toggle-button')[0]
+            const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+            toggleButton.addEventListener('click', () => {
+                navbarLinks.classList.toggle('active')
+            })
+        }
+    </script>
+
+
+    <body>
+        <div class="layout">
+            <img src="Assests/header.jpg" class="headerimage" alt="HeaderInage">
+            <nav class="navbar">
+                <button onclick="myFunction()" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="#">Branches</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a href="#">Image Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="content">
+                <h3>Introduction :</h3>
+                <div>
+                    <ul>
+                        <li>Pratham trust mainly focuses on helping the poor and needy by providing them a proper basic
+                            requirements which includes
+                            food, clothing and free medical camps.</li>
+                        <li>
+                            Charity is the act of extending love and kindness to others unconditionally, which is a
+                            conscious act but the decision is made by the heart and soul without expecting a reward.
+
+                        </li>
+
+                        <li>
+                            Our trust family is staffed by volunteers dedicated to improve the lives of abandoned poor
+                            children, adults, orphans,
+                            and homeless in our nation.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="aim" style="margin-bottom: 10px">
+                <p style="text-align: -webkit-center">The sole aim of Pratham trust is to eradicate poverty and
+                    hunger from India
+                </p>
+            </div>
+        </div>
+        <div style="margin-bottom: 100px;" class="topmenu">
+            <div class="datagraph">
+                <img src="Assests/student.jpg" alt="">
+                <div class="datatop">
+                    <p>Number of students educated by us</p>
+                    <span id="time" class="number">9989</span>
+                </div>
+            </div>
+            <div class="datagraph1">
+                <img src="Assests/food.jpg" alt="">
+                <div class="datatop1">
+                    <p>Number of people being fed by us daily</p>
+                    <span id="time2" class="number">24455</span>
+                </div>
+            </div>
+            <div class="datagraph">
+                <img src="Assests/employes.jpg" alt="">
+                <div class="datatop">
+                    <p>Number of people got employed by us</p>
+                    <span id="time3" class="number">12121</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__contact">
+                <h3>Contact Info</h3>
+                <div
+                    style="display: flex; flex-direction: column; justify-content: space-between;height: 100%; margin: 10px 0 0 10px;">
+                    <div style="display: flex;" class="content1">
+                        <p
+                            style="font-family: Californian FB; font-weight: bold; font-size: 20px;text-align: left;color: #fff;">
+                            Address:</p>
+                        <p style="font-family: Californian FB;
+                                        font-weight: bold;
+                                        font-size: 20px;
+                                        color: #d6ff00;
+                                        opacity: 0.86;">Police line 222th street,
+                            near KVB Bank,
+                            Panruti</p>
+                    </div>
+                    <div style="display: flex;" class="content1">
+                        <p
+                            style="font-family: Californian FB; font-weight: bold; font-size: 20px;text-align: left;color: #fff;">
+                            Phone:</p>
+                        <p style="font-family: Californian FB;
+                                                            font-weight: bold;
+                                                            font-size: 20px;
+                                                            color: #d6ff00;
+                                                            opacity: 0.86;">
+                            +91 - 98867 87675
+                        </p>
+                    </div>
+                    <div style="display: flex;" class="content1">
+                        <p
+                            style="font-family: Californian FB; font-weight: bold; font-size: 20px;text-align: left;color: #fff;">
+                            Address:</p>
+                        <p style="font-family: Californian FB;
+                                                            font-weight: bold;
+                                                            font-size: 20px;
+                                                            color: #d6ff00;
+                                                            opacity: 0.86;">
+                            prathamfoundations@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__links">
+                <h3>Important Links</h3>
+                <div class="footer__links__links">
+                    <a href="">Home</a>
+                    <a href="">News</a>
+                    <a href="">Branches</a>
+                    <a href="">About US</a>
+                    <a href="">Donate US</a>
+                    <a href="">Image Gallery</a>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h3>News Letter</h3>
+                <div class="newsletter__contents">
+                    <p>Want to join in our next event or to get updates from our team, enter your email addres</p>
+                    <div class="text__newsletter">
+                        <input type="text" placeholder="Email Address" name="" id="">
+                        <img src="Assests/sendimage.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

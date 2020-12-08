@@ -1,0 +1,386 @@
+.headerimage {
+    width: 100%;
+    height: 500px;
+}
+
+.layout {
+    width: 100%;
+    padding: 7px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-radius: 0px 0px 25px 25px;
+    background: #eaedf1;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.16);
+
+}
+
+
+.navbar-links {
+    font-family: "Times New Roman";
+    font-weight: normal;
+    width: 100%;
+    font-size: 26px;
+    text-align: left;
+}
+
+.navbar-links ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #4a8803;
+    padding: 1rem;
+}
+
+.navbar-links li a:hover {
+    background-color: #4a8803;
+    color: #eaedf1;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.toggle-button {
+    position: absolute;
+    margin: 7px 0 0 0;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #4a8803;
+    color: #4a8803;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .toggle-button {
+        display: flex;
+    }
+
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+        font-size: 20px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar {
+        height: auto;
+    }
+}
+
+
+.content h3{
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    margin: 30px 0 0 25px;
+    text-align: left;
+    color: #0d2b00;
+}
+
+.content div{
+    margin: 20px 0 0 35px;
+    width: 1000px;
+}
+
+.content div li{
+    font-family: "Segoe UI";
+    font-weight: 600;
+    margin: 0 0 20px 15px;
+    font-style: italic;
+    font-size: 16px;
+    text-align: left;
+    color: #000;
+}
+
+.aim {
+    height: 40px;
+    border-radius: 10px;
+    background: #75c718;
+    margin-bottom: 20px;
+}
+
+.aim p {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+    text-align: left;
+    color: #0d2b00;
+    margin: 20px 0 0 0;
+}
+
+
+@media (max-width:1000px) {
+    
+    .content div{
+        width: auto;
+    }
+
+    .aim {
+        width: auto;
+        height: auto;
+    }
+
+    .aim p {
+        width: auto;
+        height: auto;
+    }
+}
+
+.topmenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.datagraph {
+    margin: 20px 30px 20px 30px;
+    width: 250px;
+    height: 390px;
+    border-radius: 36px;
+    background: #4D063A;
+    box-shadow: 10px 20px 58px rgba(0, 0, 0, 0.16);
+}
+
+.datagraph img {
+    width: 100%;
+    height: 200px;
+}
+
+.datatop {
+    text-align: center;
+}
+
+.datatop p {
+    font-family: Rockwell;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #efff0c;
+}
+
+.number {
+    font-family: Rockwell;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #f6f6f6;
+}
+
+.datagraph1 {
+    top:80px;
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 36px;
+    background: #4D063A;
+    box-shadow: 10px 20px 58px rgba(0, 0, 0, 0.16);
+}
+
+.datagraph1 img {
+    width: 100%;
+    height: 200px;
+}
+
+.datatop1 {
+    text-align: center;
+}
+
+.datatop1 p {
+    font-family: Rockwell;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #efff0c;
+}
+
+.footer {   
+    width: 100%;
+    background-image: url("../Assests/bgfooter.jpg");
+    height: 300px;
+    place-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer__contact {
+    height: 100px;
+}
+
+.footer__contact h3 {
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links h3{
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.footer__links__links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.footer__links__links a {
+    margin: 10px 0 0 0;
+    font-family: "Californian FB";
+    font-size: 20px;
+    text-align: center;
+    color: #d6ff00;
+    text-decoration: none;
+}
+
+.newsletter h3 {
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.newsletter__contents p{
+    width: 250px;
+    margin:10px 0 0 0;
+    font-family: "Californian FB";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #d6ff00;
+}
+
+.text__newsletter {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.text__newsletter input {
+    border: none;
+    padding: 4px;
+    font-family: "Californian FB";
+    font-size: 20px;
+    text-align: center;
+    color: #8d8e8b;
+    outline: none;
+}
+
+.text__newsletter img {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+@media (max-width:1300px) {
+    .newsletter h3 {
+        font-size: 30px;
+    }
+    .footer__links h3 {
+        font-size: 30px;
+    }
+    .footer__contact h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:800px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+    .newsletter h3 {
+        font-size: 30px;
+    }
+    .footer__links h3 {
+        font-size: 30px;
+    }
+    .footer__links {
+        margin: 10px 0 10px 0;
+    }
+    .footer__contact {
+        height: auto;
+    }
+}
+
+@media (max-width:1000px) {
+    .topmenu {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+    .datagraph1 {
+        position: relative;
+        top: 0%;
+    }
+}
