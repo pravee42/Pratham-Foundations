@@ -10,7 +10,6 @@
 
 .navbar {
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-items: center;
     height: 100px;
@@ -81,15 +80,8 @@
         flex-direction: column;
         align-items: center;
     }
-
-
-    .toggle-button {
-        display: flex;
-    }
-
-
     .navbar-links {
-        display: none;
+        display: flex;
     }
 
     .navbar-links ul {
@@ -254,9 +246,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 100px 0 0 0;
 }
 
 .footer__contact {
+    display: flex;
+    flex-direction: column;
     height: 100px;
 }
 
@@ -355,6 +350,8 @@
 
 @media (max-width:800px) {
     .footer {
+        align-items: center;
+        text-align: center;
         flex-direction: column;
         height: auto;
     }
