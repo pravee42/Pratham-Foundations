@@ -247,22 +247,26 @@
     flex-direction: row;
     justify-content: space-evenly;
     border-radius: 100px 0 0 0;
-    padding:15px
+    padding:15px;
+    margin:30px 0 0 0;
 }
 
 .footer__contact {
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 200px;
 }
 
 .footer__contact h3 {
-    font-family: "Arial Rounded MT";
-    font-weight: bold;
-    font-size: 40px;
+    font-family: "Muli, sans-serif";
+    font-size: 20px;
+    font-weight: 400;
     text-align: left;
+    font-style: normal;
+    space:10px;
     margin: 10px 0 0 10px;
     color: #fff;
+    line-height: 24px;
 }
 
 .footer__links {
@@ -273,7 +277,7 @@
 .footer__links h3{
     font-family: "Arial Rounded MT";
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     text-align: left;
     margin: 10px 0 0 10px;
     color: #fff;
@@ -288,17 +292,22 @@
 
 .footer__links__links a {
     margin: 10px 0 0 0;
-    font-family: "Californian FB";
+    font-family: "Muli, sans-serif";
     font-size: 20px;
     text-align: center;
-    color: #d6ff00;
+    color: #00ff4e;
     text-decoration: none;
+}
+
+.footer__links__links a:hover {
+  margin-left: 20px;
+  transition: .8s
 }
 
 .newsletter h3 {
     font-family: "Arial Rounded MT";
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     text-align: left;
     margin: 10px 0 0 10px;
     color: #fff;
@@ -311,7 +320,7 @@
     font-weight: bold;
     font-size: 20px;
     text-align: left;
-    color: #d6ff00;
+    color: #00ff4e;
 }
 
 .text__newsletter {
@@ -335,7 +344,6 @@
     background: transparent;
     cursor: pointer;
 }
-
 
 @media (max-width:1300px) {
     .newsletter h3 {
