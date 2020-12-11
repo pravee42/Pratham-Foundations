@@ -153,7 +153,7 @@
 
 
 @media (max-width:1000px) {
-    
+
     .content div{
         width: auto;
     }
@@ -238,7 +238,7 @@
     color: #efff0c;
 }
 
-.footer {   
+.footer {
     width: 100%;
     background-image: url("../Assests/bgfooter.jpg");
     height: 300px;
@@ -247,6 +247,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     border-radius: 100px 0 0 0;
+    padding:15px
 }
 
 .footer__contact {
@@ -354,6 +355,7 @@
         text-align: center;
         flex-direction: column;
         height: auto;
+        border-radius: 50px 0 0 0;
     }
     .newsletter h3 {
         font-size: 30px;

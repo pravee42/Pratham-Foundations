@@ -178,7 +178,7 @@
 
 }
 
-.footer {   
+.footer {
     width: 100%;
     background-image: url("../Assests/bgfooter.jpg");
     height: 300px;
@@ -187,6 +187,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     border-radius: 100px 0 0 0;
+    padding:15px
 }
 
 .footer__contact {
@@ -370,6 +371,7 @@
         text-align: center;
         flex-direction: column;
         height: auto;
+        border-radius: 60px 0 0 0;
     }
     .newsletter h3 {
         font-size: 30px;
@@ -381,6 +383,7 @@
         margin: 10px 0 10px 0;
     }
     .footer__contact {
+        margin-left: 10px;
         height: auto;
         align-items: flex-start;
     }
@@ -389,7 +392,7 @@
     }
     .phoneimage {
         width: 100%;
-    }   
+    }
     .footer__contact__items {
         width: 100%;
     }
