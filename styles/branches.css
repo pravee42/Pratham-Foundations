@@ -37,7 +37,7 @@
 }
 
 .branches img {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -46,7 +46,7 @@
 }
 
 .branches img:hover {
-  width: 51%;
+  width: 61%;
   transition: 0.4s;
 }
 
