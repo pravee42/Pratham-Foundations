@@ -50,6 +50,11 @@
   transition: 0.4s;
 }
 
+.branches__maps {
+    border: none;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.16);
+}
+
 @media (max-width:800px) {
     .navigationbar {
         flex-direction: column;
