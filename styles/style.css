@@ -3,6 +3,18 @@
     height: 500px;
 }
 
+@media (max-width:500px){
+    .headerimage {
+        height: 300px;
+    }
+}
+
+@media (max-width:320px){
+    .headerimage{
+        height: 275px;
+    }
+}
+
 .layout {
     width: 100%;
     padding: 7px;
