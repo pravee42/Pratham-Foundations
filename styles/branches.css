@@ -113,6 +113,7 @@
     flex-direction: column;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer__links__links a {
@@ -139,7 +140,7 @@
 
 .newsletter__contents p{
     width: 250px;
-    margin:10px 0 0 0;
+    margin:30px 0 0 0;
     font-family: "Californian FB";
     font-weight: bold;
     font-size: 20px;
