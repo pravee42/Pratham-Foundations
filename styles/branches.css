@@ -65,7 +65,7 @@
 .footer {
     width: 100%;
     background-image: url("../Assests/bgfooter.jpg");
-    height: 300px;
+    height: auto;
     place-items: flex-start;
     display: flex;
     flex-direction: row;
@@ -78,7 +78,7 @@
 .footer__contact {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: auto;
 }
 
 .footer__contact h3 {
@@ -96,6 +96,7 @@
 .footer__links {
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 
 .footer__links h3{
@@ -169,17 +170,6 @@
     cursor: pointer;
 }
 
-@media (max-width:1300px) {
-    .newsletter h3 {
-        font-size: 30px;
-    }
-    .footer__links h3 {
-        font-size: 30px;
-    }
-    .footer__contact h3 {
-        font-size: 30px;
-    }
-}
 
 @media (max-width:800px) {
     .footer {
@@ -188,12 +178,6 @@
         flex-direction: column;
         height: auto;
         border-radius: 50px 0 0 0;
-    }
-    .newsletter h3 {
-        font-size: 30px;
-    }
-    .footer__links h3 {
-        font-size: 30px;
     }
     .footer__links {
         margin: 10px 0 10px 0;
