@@ -147,7 +147,7 @@
     height: 50px;
     border-radius: 0px 0px 50px 50px;
     background: rgba(255, 0, 87, 0.91);
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.16);
     align-items: center;
 }
 
@@ -168,5 +168,76 @@
     }
     .navbar a {
         margin-top: 6px;
+    }
+}
+
+.content {
+    margin: 30px 0 0 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.content__image img {
+    width: 90%;
+}
+
+.text__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.text__inputs input {
+    margin: 10px 0 0 0;
+    border: solid;
+    border-width: thin;
+    outline: none;
+    padding: 10px;
+}
+
+.address__content {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.address__content p {
+    width: auto;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    margin: 0 0 0 10px;
+}
+
+@media (max-width:1066px) {
+    .address .address__content  {
+        flex-direction: column;
+    }
+    .address {
+        width: 50%;
+    }
+}
+
+@media (max-width:942px) {
+    .content {
+        width: 100vw;
+    }
+    .content__2 {
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .address__content p {
+        font-size: 14px;
+    }
+    .address {
+        margin-top: 50px;
+    }
+
+}
+@media (max-width:400px) {
+    .content {
+        flex-direction: column;
     }
 }
