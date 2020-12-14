@@ -1,7 +1,7 @@
 .donateus {
     background: url("../Assests/donate.png");
-    height: 100%;
-    width: 100vw;
+    height:500px;
+    width: 100%;
     text-align: center;
     align-items: center;
     place-items: center;
@@ -37,12 +37,138 @@
     padding: 5px;
     border: solid;
     border-width: thin;
+    border-color: #FE1644;
     outline: none;
-    width: 30%;
+    width: 50%;
 }
 
 
 
 .imagesource img {
     width: 250px;
+}
+
+.footer {
+    width: 100%;
+    background-image: url("../Assests/bgfooter.jpg");
+    height: auto;
+    place-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 100px 0 0 0;
+    padding:15px;
+    background-repeat: no-repeat;
+    margin:30px 0 0 0;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.footer__contact h3 {
+    font-family: "Muli, sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    font-style: normal;
+    margin: 10px 0 0 10px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.footer__links h3{
+    font-family: "Muli, sans-serif";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.footer__links__links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer__links__links a {
+    margin: 10px 0 0 0;
+    font-family: "Muli, sans-serif";
+    font-size: 20px;
+    text-align: center;
+    color: #00ff4e;
+    text-decoration: none;
+}
+
+.footer__links__links a:hover {
+  margin-left: 20px;
+  transition: .8s
+}
+
+.newsletter h3 {
+  font-family: "Muli, sans-serif";
+  font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    color: #fff;
+}
+
+.newsletter__contents p{
+    width: 250px;
+    margin:30px 0 0 0;
+    font-family: "Californian FB";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #00ff4e;
+}
+
+.text__newsletter {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.text__newsletter input {
+    border: none;
+    padding: 4px;
+    font-family: "Californian FB";
+    font-size: 20px;
+    text-align: center;
+    color: #8d8e8b;
+    outline: none;
+}
+
+.text__newsletter img {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+@media (max-width:800px) {
+    .footer {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        border-radius: 50px 0 0 0;
+    }
+    .footer__links {
+        margin: 10px 0 10px 0;
+    }
+    .footer__contact {
+        height: auto;
+    }
 }
