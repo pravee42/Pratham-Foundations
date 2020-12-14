@@ -17,7 +17,7 @@
                     <input type="text" placeholder="Name" class="textinputs">
                     <input type="text" placeholder="Email Address" class="textinputs">
                     <input type="text" placeholder="Ammount" class="textinputs">
-                    <div style="cursor: pointer;" class="button__donate">
+                    <a style="cursor: pointer;" class="button__donate" href="#popup1" href="donateus.html">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203"
                             height="102" viewBox="0 0 363 102">
                             <defs>
@@ -47,10 +47,21 @@
                                 </text>
                             </g>
                         </svg>
-                    </div>
+                    </a>
+                    <div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Amount Sucessfully Donated</h2>
+		<a class="close" href="#">&times;
+        </a>
+		<div class="content">
+			Thank for the donation.
+        <!-- <meta http-equiv="refresh" content="1"> -->
+        </div>
+    </div>
+</div>
                 </div>
                 <div class="imagesource">
-                    <img src="Assests/donate__logo.png">
+                    <img src="Assests/donate1.jpg">
                 </div>
             </div>
         </div>

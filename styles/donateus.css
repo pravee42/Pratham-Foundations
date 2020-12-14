@@ -1,174 +1,240 @@
 .donateus {
-    background: url("../Assests/donate.png");
-    height:500px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    place-items: center;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  place-items: center;
 }
 
 .donateus h3 {
-    font-family: "Segoe UI";
-    font-weight: 600;
-    font-style: italic;
-    font-size: 30px;
-    line-height: 112px;
-    color: #f3002c;
-    margin-left: 20px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 112px;
+  color: #f3002c;
+  margin-left: 20px;
 }
 
 .bodycontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
 }
 
 .text__inputs {
-    display: flex;
-    flex-direction: column;
-    flex: 0.4;
-    height: 200px;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  height: 200px;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: space-evenly;
 }
 
 .text__inputs input {
-    margin-top: 10px;
-    padding: 5px;
-    border: solid;
-    border-width: thin;
-    border-color: #FE1644;
-    outline: none;
-    width: 50%;
+  margin-top: 10px;
+  padding: 5px;
+  border: solid;
+  border-width: thin;
+  border-color: #fe1644;
+  outline: none;
+  width: 50%;
 }
 
-
-
 .imagesource img {
-    width: 250px;
+  width: 300px;
 }
 
 .footer {
-    width: 100%;
-    background-image: url("../Assests/bgfooter.jpg");
-    height: auto;
-    place-items: flex-start;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border-radius: 100px 0 0 0;
-    padding:15px;
-    background-repeat: no-repeat;
-    margin:30px 0 0 0;
+  width: 100%;
+  background-image: url("../Assests/bgfooter.jpg");
+  height: auto;
+  place-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 100px 0 0 0;
+  padding: 15px;
+  background-repeat: no-repeat;
+  margin: 30px 0 0 0;
 }
 
 .footer__contact {
-    display: flex;
-    flex-direction: column;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
 .footer__contact h3 {
-    font-family: "Muli, sans-serif";
-    font-size: 20px;
-    font-weight: 400;
-    text-align: left;
-    font-style: normal;
-    margin: 10px 0 0 10px;
-    color: #fff;
-    line-height: 24px;
+  font-family: "Muli, sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-style: normal;
+  margin: 10px 0 0 10px;
+  color: #fff;
+  line-height: 24px;
 }
 
 .footer__links {
-    display: flex;
-    flex-direction: column;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
-.footer__links h3{
-    font-family: "Muli, sans-serif";
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    margin: 10px 0 0 10px;
-    color: #fff;
+.footer__links h3 {
+  font-family: "Muli, sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0 0 10px;
+  color: #fff;
 }
 
 .footer__links__links {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .footer__links__links a {
-    margin: 10px 0 0 0;
-    font-family: "Muli, sans-serif";
-    font-size: 20px;
-    text-align: center;
-    color: #00ff4e;
-    text-decoration: none;
+  margin: 10px 0 0 0;
+  font-family: "Muli, sans-serif";
+  font-size: 20px;
+  text-align: center;
+  color: #00ff4e;
+  text-decoration: none;
 }
 
 .footer__links__links a:hover {
   margin-left: 20px;
-  transition: .8s
+  transition: 0.8s;
 }
 
 .newsletter h3 {
   font-family: "Muli, sans-serif";
   font-weight: 400;
-    font-size: 20px;
-    margin: 10px 0 0 10px;
-    color: #fff;
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  color: #fff;
 }
 
-.newsletter__contents p{
-    width: 250px;
-    margin:30px 0 0 0;
-    font-family: "Californian FB";
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
-    color: #00ff4e;
+.newsletter__contents p {
+  width: 250px;
+  margin: 30px 0 0 0;
+  font-family: "Californian FB";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: #00ff4e;
 }
 
 .text__newsletter {
-    margin: 20px 0 0 0;
-    display: flex;
+  margin: 20px 0 0 0;
+  display: flex;
 }
 
 .text__newsletter input {
-    border: none;
-    padding: 4px;
-    font-family: "Californian FB";
-    font-size: 20px;
-    text-align: center;
-    color: #8d8e8b;
-    outline: none;
+  border: none;
+  padding: 4px;
+  font-family: "Californian FB";
+  font-size: 20px;
+  text-align: center;
+  color: #8d8e8b;
+  outline: none;
 }
 
 .text__newsletter img {
-    width: 30px;
-    height: 30px;
-    background: transparent;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
 }
 
+@media (max-width: 800px) {
+  .footer {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    border-radius: 50px 0 0 0;
+  }
+  .footer__links {
+    margin: 10px 0 10px 0;
+  }
+  .footer__contact {
+    height: auto;
+  }
+}
 
-@media (max-width:800px) {
-    .footer {
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        height: auto;
-        border-radius: 50px 0 0 0;
-    }
-    .footer__links {
-        margin: 10px 0 10px 0;
-    }
-    .footer__contact {
-        height: auto;
-    }
+@media (max-width: 460px) {
+  .bodycontainer {
+    flex-direction: column;
+    height: auto;
+  }
+  .donateus {
+    height: auto;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 35%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.popup .close:hover {
+  color: #06d85f;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
 }
