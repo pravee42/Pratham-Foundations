@@ -1,0 +1,48 @@
+.donateus {
+    background: url("../Assests/donate.png");
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+}
+
+.donateus h3 {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 112px;
+    color: #f3002c;
+    margin-left: 20px;
+}
+
+.bodycontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text__inputs {
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text__inputs input {
+    margin-top: 10px;
+    padding: 5px;
+    border: solid;
+    border-width: thin;
+    outline: none;
+    width: 30%;
+}
+
+
+
+.imagesource img {
+    width: 250px;
+}
