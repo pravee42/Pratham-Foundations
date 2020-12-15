@@ -177,10 +177,6 @@
   }
   .donateus {
     height: auto;
-    width: auto;
-  }
-  .donateus h3 {
-    width: auto;
   }
 }
 
@@ -243,5 +239,18 @@
   }
   .popup {
     width: 70%;
+  }
+}
+
+@media (max-width: 490px) {
+  .popup {
+    align-items: center;
+    text-align: center;
+  }
+  .popup h2 {
+    width: 50%;
+  }
+  .popup .content {
+    width: 50%;
   }
 }
