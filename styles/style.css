@@ -557,4 +557,7 @@
     height: 250px;
     width: 99%;
   }
+  .footer__links {
+    margin-top: 10px;
+  }
 }
