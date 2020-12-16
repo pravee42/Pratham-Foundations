@@ -8,6 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="Assests/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -164,11 +169,12 @@
                         <h3>News Letter</h3>
                         <div class="newsletter__contents">
                             <p>Want to join in our next event or to get updates from our team, enter your email addres</p>
+                            <form action="#popup2">
                             <div class="text__newsletter">
-                                <input type="text" placeholder="Email Address" name="" id="">
-                                <a href="#popup2">
-                                    <img src="Assests/sendimage.png" alt="">
-                                </a>
+                                <input type="email"  required placeholder="Email Address" name="" id="">
+                                    <button>
+                                        <img src="Assests/sendimage.png" alt="">
+                                    </button>
                                 <div id="popup2" class="overlay1">
                                     <div class="popup1">
                                         <h2>Thanks for subscribing to us. You will receive all the update</h2>
@@ -176,6 +182,7 @@
                                     </div>
                                 </div>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>

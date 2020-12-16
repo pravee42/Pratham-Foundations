@@ -121,8 +121,7 @@
 .content h3 {
   font-family: "Segoe UI";
   font-weight: 600;
-  font-style: italic;
-  font-size: 20px;
+  font-size: 30px;
   margin: 30px 0 0 25px;
   text-align: left;
   color: #0d2b00;
@@ -134,11 +133,10 @@
 }
 
 .content div li {
-  font-family: "Segoe UI";
-  font-weight: 600;
+  font-family: "Andika New Basic", sans-serif;
+  font-weight: 550;
   margin: 0 0 20px 15px;
-  font-style: italic;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
   color: #000;
 }
@@ -148,12 +146,12 @@
   border-radius: 10px;
   background: #75c718;
   margin-bottom: 20px;
+  width: auto;
 }
 
 .aim p {
   font-family: "Segoe UI";
   font-weight: 600;
-  font-style: italic;
   font-size: 25px;
   text-align: left;
   color: #0d2b00;
@@ -499,5 +497,64 @@
   .donateus___contents svg {
     width: 30;
     height: 90;
+  }
+}
+
+@media (max-width: 600px) {
+  .datagraph {
+    width: 90%;
+    height: 550px;
+  }
+
+  .datagraph img {
+    height: 450px;
+  }
+  .datatop {
+    height: 250px;
+    width: 99%;
+  }
+}
+
+@media (max-width: 360px) {
+  .datagraph {
+    width: 90%;
+    height: 550px;
+  }
+
+  .datagraph img {
+    height: 400px;
+  }
+  .datatop {
+    height: 250px;
+    width: 99%;
+  }
+}
+@media (max-width: 600px) {
+  .datagraph1 {
+    width: 90%;
+    height: 550px;
+  }
+
+  .datagraph1 img {
+    height: 450px;
+  }
+  .datatop1 {
+    height: 250px;
+    width: 99%;
+  }
+}
+
+@media (max-width: 360px) {
+  .datagraph1 {
+    width: 90%;
+    height: 550px;
+  }
+
+  .datagraph1 img {
+    height: 400px;
+  }
+  .datatop1 {
+    height: 250px;
+    width: 99%;
   }
 }
