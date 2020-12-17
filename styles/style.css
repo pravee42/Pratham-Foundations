@@ -465,6 +465,12 @@
   align-items: center;
 }
 
+.text__newsletter buton {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
 .donateus___contents p {
   font-family: Rockwell;
   font-weight: bold;
@@ -559,5 +565,34 @@
   }
   .footer__links {
     margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+  .datagraph1 {
+    width: 90%;
+    height: 550px;
+  }
+
+  .datagraph1 img {
+    height: 400px;
+  }
+  .datatop1 {
+    height: 250px;
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+  .datagraph {
+    width: 90%;
+    height: 550px;
+  }
+
+  .datagraph img {
+    height: 400px;
+  }
+  .datatop {
+    height: 250px;
+    width: 99%;
   }
 }
