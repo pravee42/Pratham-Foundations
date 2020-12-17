@@ -133,10 +133,10 @@
 }
 
 .content div li {
-  font-family: "Andika New Basic", sans-serif;
-  font-weight: 550;
+  font-family: "Tenali Ramakrishna", sans-serif;
+  font-weight: bolder;
   margin: 0 0 20px 15px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
   color: #000;
 }
@@ -147,15 +147,15 @@
   background: #75c718;
   margin-bottom: 20px;
   width: auto;
+  padding: 5px;
 }
 
 .aim p {
-  font-family: "Segoe UI";
+  font-family: "Alegreya Sans', sans-serif";
   font-weight: 600;
   font-size: 25px;
   text-align: left;
   color: #0d2b00;
-  margin: 20px 0 0 0;
 }
 
 @media (max-width: 1000px) {
@@ -365,6 +365,9 @@
   .footer__contact {
     height: auto;
   }
+  .footer__links {
+    margin: 30px 0 0 0;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -472,7 +475,7 @@
 }
 
 .donateus___contents p {
-  font-family: Rockwell;
+  font-family: "Langar", cursive;
   font-weight: bold;
   font-style: italic;
   font-size: 50px;
@@ -503,6 +506,9 @@
   .donateus___contents svg {
     width: 30;
     height: 90;
+  }
+  .footer__links {
+    margin-top: 30px;
   }
 }
 
@@ -564,14 +570,14 @@
     width: 99%;
   }
   .footer__links {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 }
 
-@media only screen and (max-width: 700px) and (orientation: landscape) {
+@media only screen and (max-width: 850px) and (orientation: landscape) {
   .datagraph1 {
     width: 90%;
-    height: 550px;
+    height: 530px;
   }
 
   .datagraph1 img {
@@ -582,10 +588,10 @@
     width: 99%;
   }
 }
-@media only screen and (max-width: 700px) and (orientation: landscape) {
+@media only screen and (max-width: 850px) and (orientation: landscape) {
   .datagraph {
     width: 90%;
-    height: 550px;
+    height: 530px;
   }
 
   .datagraph img {
