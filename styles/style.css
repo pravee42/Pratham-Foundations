@@ -219,6 +219,7 @@
 @media (max-width: 600px) {
   .number {
     margin-bottom: 30px;
+    font-size: 40px;
   }
 }
 
