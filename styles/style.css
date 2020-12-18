@@ -212,8 +212,14 @@
   font-weight: normal;
   font-size: 50px;
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 0 0;
   color: #f6f6f6;
+}
+
+@media (max-width: 600px) {
+  .number {
+    margin-bottom: 30px;
+  }
 }
 
 .datagraph1 {
