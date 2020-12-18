@@ -311,6 +311,7 @@
 @media (max-width: 600px) {
   .video1 video {
     width: 90%;
+    height: auto;
   }
   .slide-show img {
     width: 90%;
