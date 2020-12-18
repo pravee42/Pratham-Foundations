@@ -29,12 +29,14 @@
                 <img src="Assests/form.jpg" alt="Image">
             </div>
             <div style="display: flex; width: 100%; justify-content: space-evenly;" class="content__2">
+                    <form action="#popup1">
                 <div class="text__inputs">
                     <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
+                    <input type="email" placeholder="Email">
                     <input type="text" placeholder="Subject">
                     <input type="text" placeholder="Message">
-                    <a class="linkbutton" href="#popup1">Send</a>
+                    <button class="linkbutton" type="submit">Send</button>
+                    </form>
                     <div id="popup1" class="overlay">
                         <div class="popup">
                             <h3>Thanks for your message. We will contact you shortly</h2>
@@ -78,8 +80,7 @@
             <div class="footer__contact" style="text-align: center;align-items: center">
                 <h3>Contact Info</h3>
                 <div
-                    style="display: flex;
-                            width:auto; flex-direction: column;  justify-content: space-between;height: 150%;  margin: 20px 0 0 10px;">
+                    style="display: flex; width:auto; flex-direction: column;  justify-content: space-between;height: 150%;  margin: 20px 0 0 10px;">
                     <table style="height:200px;">
                         <tr style="margin-top: 10px;">
                             <td>
@@ -88,12 +89,8 @@
                                     Address:</p>
                             </td>
                             <td>
-                                <p style="font-family: Californian FB;
-                                                                                                                font-weight: 300;
-                                                                                                                font-size: 20px;
-                                                                                                                color: #00ff4e;
-                                                                                                                text-align: left;
-                                                                                                                ">
+                                <p
+                                    style="font-family: Californian FB;font-weight: 300; font-size: 20px;color: #00ff4e;text-align: left; ">
                                     Pratham Foundations,203,Kutchery Road,
                                     Mylapore, Chennai - 600 004.
                                 </p>
@@ -101,17 +98,13 @@
                         </tr>
                         <tr>
                             <td>
-                                <p style=" font-family: Muli, sans-serif; font-size: 16px; font-weight:300;
-                                                        text-align: left;color: #fff;">
+                                <p
+                                    style=" font-family: Muli, sans-serif; font-size: 16px; font-weight:300; text-align: left;color: #fff;">
                                     Phone:</p>
                             </td>
                             <td>
                                 <p
-                                    style="font-family: Californian FB;
-                                                                                                                                                                        font-weight: 300;
-                                                                                                                                                                        font-size: 20px;
-                                                                                                                                                                        color: #00ff4e;
-                                                                                                                                                                        text-align: left">
+                                    style="font-family: Californian FB; font-weight: 300; font-size: 20px; color: #00ff4e; text-align: left">
                                     +91 -9344028179 </p>
                             </td>
                         </tr>
@@ -123,11 +116,7 @@
                             </td>
                             <td>
                                 <p
-                                    style="font-family: Californian FB;
-                                                                                                                                                                    font-weight: 300;
-                                                                                                                                                                    font-size: 20px;
-                                                                                                                                                                    color: #00ff4e;
-                                                                                                                                                                    text-align: left">
+                                    style="font-family: Californian FB; font-weight: 300;font-size: 20px;color: #00ff4e;text-align: left">
                                     Prathamfoundations@gmail.com</p>
                             </td>
                         </tr>
@@ -150,18 +139,20 @@
                 <h3>News Letter</h3>
                 <div class="newsletter__contents">
                     <p>Want to join in our next event or to get updates from our team, enter your email addres</p>
-                    <div class="text__newsletter">
-                        <input type="text" placeholder="Email Address" name="" id="">
-                      <a href="#popup2">
-                        <img src="Assests/sendimage.png" alt="">
-                      </a>  
+                    <form action="#popup2">
+                        <div class="text__newsletter">
+                            <input type="email" required placeholder="Email Address" name="" id="">
+                            <button>
+                                <img src="Assests/sendimage.png" alt="">
+                            </button>
                             <div id="popup2" class="overlay1">
                                 <div class="popup1">
                                     <h2>Thanks for subscribing to us. You will receive all the update</h2>
                                     <a class="close1" href="#">&times;</a>
                                 </div>
                             </div>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

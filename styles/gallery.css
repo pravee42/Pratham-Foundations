@@ -303,19 +303,6 @@
   }
 }
 
-@media (max-width: 800px) {
-  #slideshow {
-    overflow: hidden;
-    height: 450px;
-    width: 90%;
-    margin-top: 50px;
-  }
-  #slideshow1 {
-    overflow: hidden;
-    height: 450px;
-    width: 90%;
-    margin-top: 50px;
-  }
   .video1 video {
     width: 90%;
   }

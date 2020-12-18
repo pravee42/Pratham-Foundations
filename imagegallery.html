@@ -11,51 +11,9 @@
         <style>
             body {
                 font-family: Helvetica, sans-serif;
-                text-align: center;
                 font-size: 50;
-            }
-            #slideshow {
-                overflow: hidden;
-                height: 510px;
-                width: 728px;
-                margin: 50px auto;
-            }
-            .slide {
-                float: left;
-                height: 510px;
-                width: 728px;
-            }
-            .slide-wrapper {
-                width: calc(728px * 4);
-                animation: slide 10s ease-out infinite;
-            }
-          
-            @keyframes slide {
-                20% {
-                    margin-left: 0px;
-                }
-
-                40% {
-                    margin-left: calc(-728px * 1);
-                }
-
-                60% {
-                    margin-left: calc(-728px * 2);
-                }
-
-                80% {
-                    margin-left: calc(-728px * 3);
-                }
-            }
-            .image__ {
-                width: 100%;
-                height: 100%;
-            }
-             #slideshow1 {
-                overflow: hidden;
-                height: 510px;
-                width: 728px;
-                margin: 50px auto;
+                text-align: center;
+                width: 90%;
             }
         </style>
     </head>
@@ -76,21 +34,8 @@
         <div class="header">
             Image Gallery
         </div>
-        <div id="slideshow">
-            <div class="slide-wrapper">
-                <div class="slide">
-                    <img src="Assests/slideshow images/1.jpg" alt="image-1" class="image__">
-                </div>
-                <div class="slide">
-                    <img src="Assests/slideshow images/2.jpg" alt="image-1" class="image__">
-                </div>
-                <div class="slide">
-                    <img src="Assests/slideshow images/3.jpg" alt="image-1" class="image__">
-                </div>
-                <div class="slide">
-                    <img src="Assests/slideshow images/4.jpg" alt="image-1" class="image__">
-                </div>
-            </div>
+        <div class="slide-show" >
+        
         </div>
         <div class="video1">
             <video width="700px" height="550px" style="outline: none; border: solid; padding: 5px;" controls>
@@ -99,25 +44,12 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-        <div id="slideshow1">
-            <div class="slide-wrapper">
-                <div class="slide">
-                    <img src="Assests/slideshow images/5.jpg" alt="image-1" class="image__">
-                </div>
-                <div class="slide">
-                    <img src="Assests/slideshow images/6.jpg" alt="image-1" class="image__">
-                </div>
-                <div class="slide">
-                    <img src="Assests/slideshow images/7.jpg" alt="image-1" class="image__">
-                </div>
-                <div class="slide">
-                    <img src="Assests/slideshow images/8.jpg" alt="image-1" class="image__">
-                </div>
-                
-            </div>
+        <div class="slide-show" >
+           
+        </div>
         </div>
         <div class="video1">
-            <video width="auto" height="auto" style="margin: 50px ; outline: none; border: solid; padding: 5px;" controls>
+            <video width="auto" height="auto" style=" outline: none; border: solid; padding: 5px;" controls>
                 <source src="Assests/video2.mp4" '
                         type="video/mp4">
                         Your browser does not support the video tag.
