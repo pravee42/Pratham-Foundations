@@ -490,3 +490,9 @@
     width: 50%;
   }
 }
+
+@media (max-width: 600px) {
+  .footer__links {
+    margin: 10px 0 10px 0;
+  }
+}

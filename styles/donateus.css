@@ -178,6 +178,15 @@
   .donateus {
     height: auto;
   }
+  .footer__links {
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__links {
+    margin: 10px 0 10px 0;
+  }
 }
 
 .overlay {
