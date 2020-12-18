@@ -342,3 +342,8 @@
   background: none;
   outline: none;
 }
+@media (max-width: 600px) {
+  .footer__links {
+    margin: 20px 0 0 0;
+  }
+}
