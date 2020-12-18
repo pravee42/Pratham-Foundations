@@ -303,7 +303,16 @@
   }
 }
 
+.slide-show img {
+  width: 50%;
+  margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 600px) {
   .video1 video {
+    width: 90%;
+  }
+  .slide-show img {
     width: 90%;
   }
 }

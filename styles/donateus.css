@@ -325,3 +325,11 @@
     width: 50%;
   }
 }
+
+.button__donate {
+  border: none;
+  height: 90px;
+  margin-top: 10px;
+  background: none;
+  outline: none;
+}
