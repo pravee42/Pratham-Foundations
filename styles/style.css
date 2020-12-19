@@ -166,11 +166,11 @@
   .aim {
     width: auto;
     height: auto;
+    padding: 0px;
   }
 
   .aim p {
     width: auto;
-    height: auto;
   }
 }
 
