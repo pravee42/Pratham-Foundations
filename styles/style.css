@@ -142,7 +142,7 @@
 }
 
 .aim {
-  height: 40px;
+  height: auto;
   border-radius: 10px;
   background: #75c718;
   margin-bottom: 20px;

@@ -4,6 +4,7 @@
   margin-top: 20px;
   color: green;
   padding: 0px 0 4px 0;
+  width: 100%;
 }
 
 .navbar {
@@ -14,6 +15,7 @@
   border-radius: 0px 0px 25px 25px;
   background: #eaedf1;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.16);
+  width: 100%;
 }
 
 .navbar-links {
@@ -105,7 +107,7 @@
   }
 }
 .footer {
-  width: 100%;
+  width: 100vw;
   background-image: url("../Assests/bgfooter.jpg");
   height: auto;
   place-items: flex-start;
